@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+#body{
+overflow:auto;	
+}
+#wrapper{
+max-width:100%;
+width: 98%;
+background-color: none;
+margin: 0 auto;
+position: relative;
+
+	}
+#title{
+width: 15%;
+position: static;
+padding-top:2%;
+text-align: center;
+}
+#title h1{
+font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+	margin: 0;
+	padding: 15px 0px 6px 0px;
+	font-size: 51px;
+	line-height: 60px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+
+#sidebar{
+
+width:15%;
+background-color: white;
+position:static;
+}
+
+#sidebar ul {
+margin:0;
+list-style: none;
+padding:0% 0% 0%;
+}
+
+
+.work{
+font: normal 14px 'Verdana', Helvetica, Arial, sans-serif;
+color:#696969;
+padding-left:5%;
+}
+.info{
+font: normal 14px 'Verdana', Helvetica, Arial, sans-serif;
+color:#696969;
+padding-left:5%;
+}
+.home{
+font:18px 'Verdana', Helvetica, Arial, sans-serif;
+}
+#sidebar ul li a{
+background:#FFF;
+display:list-item;	
+font: normal 12px 'Verdana', Helvetica, Arial, sans-serif;
+color:#000;
+text-decoration:none;
+text-align:center;
+padding: 5%;
+}
+
+#sidebar ul li  a:hover, sidebar ul li.active a{
+background-color:#000;
+color:#FFF;	
+}
+#content{
+width: 70%;
+height:auto;
+position: relative;
+left:300px;
+top:-350px;
+
+}
+#contentA{
+	position:relative;
+	top:-350px;
+	left:500px;
+	text-align:left;
+	width:40%;
+	height:auto;	
+}
+#contentA p{
+font: normal 20px 'Verdana', Helvetica, Arial, sans-serif;
+
+}
+#contentA h1{
+text-align:left;
+right:100px;
+position:relative;
+font: normal 40px 'Verdana', Helvetica, Arial, sans-serif;
+}
+
+	
+@media screen  and (max-width:740px){
+#wrapper{
+	width:100%;
+}
+#title{
+	height:auto;
+	width:98%;
+}
+‪#‎sidebar‬{ 
+width:100%;
+}
+#sidebar ul{
+list-style:none;
+margin:0 auto;
+}
+#sidebar ul li {
+margin-left:0 auto;
+text-align:center;
+width:100%;
+
+}
+
+#sidebar ul li a{
+padding:50% 5% 50% 50%;
+width:600%;
+font-weight:bold;
+font-size:16px;
+color:#000;
+text-align:center;
+}
+.home{
+font:16px 'Verdana', Helvetica, Arial, sans-serif;	
+font-weight:bold;
+}
+
+.work{
+	display:none;
+}
+.info{
+	display:none;
+}
+
+
+#content{
+position:static;
+width:97%;	
+}
+#contentA{
+position:static;
+width:98%;
+text-align:center;
+font-size:12px;
+}
+#contentA p{
+
+font-size:14px;
+}
+#contentA h1{
+position:static;
+text-align:center;
+width:98%;	
+font: normal 30px 'Verdana', Helvetica, Arial, sans-serif;
+
+}
+
+}
